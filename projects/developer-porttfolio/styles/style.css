@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+a{
+  text-decoration: none;
+}
+.text-primary{
+  color: #FD6E0A;
+}
+.btn-primary{
+  height: 64px;
+  border-radius: 5px;
+  background: #FD6E0A;
+  color: #FFFFFF;
+  font-style: normal;
+  border: 0;
+  padding: 18px 35px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+}
+.btn-primary:hover{
+  background: #2b2927;
+  transition: ease-in;
+}
+.conrtract_button{
+  border: 1px solid #FD6E0A;
+  background: #FFF8F3;
+  border-radius: 5px;
+  padding: 18px 35px;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  color: #FD6E0A;
+}
+.conrtract_button:hover{
+  background: #b1aba6;
+}
+.header{
+  background-color: #FFF8F3;
+  background-image: url(../images/header_bg.png),url(../images/developer.png);
+  background-repeat: no-repeat;
+  background-position: bottom right,left;
+}
+/* header and navigation  style */
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 200px;
+}
+
+.nav-title{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 61px;
+  
+}
+nav ul{
+  display: flex;
+  align-items: center;
+}
+nav li{
+  list-style: none;
+  margin-left: 30px;
+}
+
+
+/*  banner styles */
+
+.banner{
+  display: flex;
+  align-items: center;
+  margin: 0 45px;
+}
+.banner-sub-title{
+  font-weight: 600;
+  font-size: 45px;
+  color: #474747;
+}
+.banner-title{
+  font-weight: 700;
+  font-size: 83px;
+  color: #181818;
+  margin-bottom: 20px;
+}
+.banner_description{
+  font-weight: 400;
+font-size: 18px;
+color: #757575;
+margin-bottom: 30px;
+}
+
+/* main section styles */
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* about section styles */
+.about{
+ margin-top: 130px;
+ background: #FFF8F3;
+ border-radius: 10px;
+ text-align: center;
+ padding: 44px 131px;
+}
+.section_title{
+  
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 35px;
+}
+.section_description{
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #757575;
+  text-align: justify;
+}
+
+.about_info_container{
+  display: flex;
+  justify-content: space-around;
+  
+}
+.info_title{
+  color: #757575;
+  font-weight: 400;
+font-size: 20px;
+}
+.info_description{
+  color: #474747;
+  font-weight: 700;
+font-size: 20px;
+}
+
+/* what i do styles */
+
+.section_title{
+  margin-top: 130px;
+  text-align: center;
+  margin-bottom: 137px;
+}
+
+.skills_container{
+  display: flex;
+  gap: 24px;
+}
+.skill{
+  background: #FFFFFF;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+  padding: 30px;
+}
+.skill_title{
+  font-weight: 700;
+  font-size: 20px;
+  color: #181818;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.skill_description{
+  font-weight: 400;
+  font-size: 16px;
+  color: #757575;
+  text-align: justify;
+}
+
+/* resume sectin styles */
+
+.resume_title{
+  font-weight: 700;
+  font-size: 35px;
+  text-align: center;
+  color: #181818;
+  margin-top: 130px;
+  margin-bottom: 123px;
+}
+.resume_container{
+display: flex;
+gap: 24px;
+}
+.resume_title1{
+  font-weight: 700;
+  font-size: 30px;
+  color: #474747;
+}
+.resume_item{
+margin-bottom: 30px;
+}
+.resume_class{
+  font-weight: 700;
+font-size: 25px;
+color: #474747;
+margin-top: 30px;
+margin-bottom: 10px;
+}
+
+.resume_class1{
+  font-weight: 600;
+  font-size: 20px;
+  color: #757575;
+ 
+}
+.resume_class2{
+  font-weight: 400;
+  font-size: 16px;
+  color: #757575;
+  margin-top: 12px;
+}
+hr{
+  border: 1px solid #D1D1D1;
+}
+.btn{
+  
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/* contact secton styles */
+.contract{
+  display: flex;
+  gap: 100px;
+  background: #FFF8F3;
+  padding: 130px 200px;
+}
+.lets_connect{
+  font-weight: 700;
+  font-size: 35px;
+  color: #181818;
+}
+.lets_connect_description{
+  font-weight: 400;
+  font-size: 16px;
+  color: #474747;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.message{
+  font-weight: 700;
+font-size: 35px;
+color: #181818;
+margin-bottom: 12px;
+}
+
+.contract input[type="text"],input[type="email"],textarea{
+  margin-bottom: 24px;
+  border: 0;
+  width: 100%;
+  padding:18px 30px;
+}
+input{
+  height: 64px;
+}
+
+
+footer{
+  background: #f8f5f4;
+  padding: 20px 0;
+}

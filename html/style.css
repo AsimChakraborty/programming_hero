@@ -1,0 +1,29 @@
+nav >ul{
+  display: flex;
+  
+  
+}
+nav li{
+  list-style: none;
+  margin-right: 10px;
+}
+nav li:hover{
+  background-color: aqua;
+  padding: 4px;
+}
+
+nav li a{
+  text-decoration: none;
+  color: black;
+}
+
+/* nested drop down */
+nav li .drop{
+  display: none;
+  position: absolute;
+  background-color:yellowgreen;
+  padding-left: 0px;
+}
+ nav li:hover >.drop{
+  display: block;
+ }
