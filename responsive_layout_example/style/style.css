@@ -6,7 +6,7 @@ img{
   width: 100%;
 }
 .row{
-  height: 400px;
+  
   margin-bottom: 5px;
 }
 .second-row, .third_row{
@@ -31,4 +31,18 @@ img{
 }
 .third_row >div{
   flex: 1;
+}
+@media screen and (max-width:576px) {
+  .second-row, .third_row{
+     flex-direction: column;
+  }
+  .third_row_second_container{
+    grid-template-columns: repeat(1,1fr);
+  }
+}
+@media screen and (min-width:577px) {
+  .row{
+    height: 400px;
+  }
+  
 }
