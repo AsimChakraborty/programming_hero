@@ -1,0 +1,34 @@
+h2{
+  text-align: center;
+}
+img{
+  height: 100%;
+  width: 100%;
+}
+.row{
+  height: 400px;
+  margin-bottom: 5px;
+}
+.second-row, .third_row{
+  display: flex;
+  gap: 5px;
+}
+.second-row >div{
+  flex: 1;
+}
+.second-row-third-container{
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+}
+.second-row-third-container div{
+  height: 200px;
+}
+.third_row_second_container{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 5px;
+}
+.third_row >div{
+  flex: 1;
+}
