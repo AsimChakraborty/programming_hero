@@ -50,3 +50,30 @@ hr{
   
   border: 1px solid #D1D1D1;
 }
+
+/*---------------------top_blog 
+--------------*/
+.blog{
+  display: flex;
+}
+.blog .thumbnill img{
+  width: 177px;
+  height: 117px;
+}
+ .blog_info{
+  margin-left: 16px;
+}
+.blog_tittle{
+  color: #000;
+font-size: 20px;
+}
+.blog_author{
+  color: #9F9F9F;
+  font-size: 16px;
+ 
+}
+a{
+  text-decoration: none;
+  color: #562EFF;
+  font-size: 16px;
+}
