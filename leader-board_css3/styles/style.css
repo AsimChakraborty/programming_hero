@@ -7,6 +7,60 @@ body{
 font-family: 'Poppins', sans-serif;
 background-color: #F3F1FF;;
 }
+
+
+/* ---header menu styles---- */
+.header{
+  background: #562EFF;
+  
+}
+
+.navs{
+  display: flex;
+}
+.nav{
+  display: flex;
+}
+.nav img{
+  width: 40.424px;
+  height: 51px;
+  color: #FFFFFF;
+    margin-left: 378px;
+    margin-top: 12px;
+}
+.nav p{
+  color: #FFF;
+  font-size: 24px;
+  font-family: Poppins;
+  font-weight: 500;
+  margin-left: 17px;
+}
+.link{
+  display: flex;
+  align-items: baseline;
+  margin-left: 521px;
+  gap: 40px;
+  margin-top: 30px;
+}
+.link a{
+  color: #FFF;
+font-size: 16px;
+font-family: Poppins;
+}
+.profile_img{
+    margin-top: 12px;
+    margin-left: 19px;
+}
+
+
+
+
+
+
+
+
+
+
 main{
   display: flex;
   flex-direction: column;
@@ -146,4 +200,42 @@ color: #FF4A60;
 }
 span{
   color: #FF4A60;
+}
+
+
+
+
+/* --------------Media query-------------------------- */
+
+
+/* ---------Mobile Devices-------- */
+
+@media only screen and (max-width:688px){
+  .container{
+    width: 100%;
+  }
+  .players,.blogs,.courses{
+    grid-template-columns: repeat(1,1fr);
+    
+  }
+  .player,.blog{
+    flex-direction: column;
+  }
+  .section_tittle{
+    margin-left: 32%;
+ 
+  }
+  
+}
+
+/* ------tablet devices---------- */
+@media only screen and (min-width:688px) and (max-width:992px){
+  .container{
+    width: 100%;
+  }
+  .players,.blogs,.courses{
+    grid-template-columns: repeat(2, 1fr);
+    
+  }
+  
 }
