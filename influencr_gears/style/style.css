@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@700&display=swap');
+
+body{
+
+  font-family: 'Open Sans', sans-serif;
+}
+.container-fluid{
+  background: #FFF;
+  margin-top: 34px;
+}
+#navbarSupportedContent{
+  margin-right: 220px;
+}
+.navbar {
+  background-color: transparent !important;
+}
+.navbar-brand{
+  margin-left: 224px;
+  color: #3A3A3A;
+  font-size: 24px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.nav-item{
+  color: #3A3A3A;
+  font-size: 16px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-inline: 12px;
+}
+.icon{
+  margin-top: 11px;
+}
+.icon,.fa-solid {
+  margin-inline: 12px;
+}
+
+
+
+
+/* <!-- start your section start --> */
+.section_class{
+  display: flex;
+  padding: 99px;
+}
+.section{
+  margin-left: 129px;
+}
+h2{
+  color: #3A3A3A;
+  font-size: 52px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px;
+}
+p{
+  color: #3A3A3A;
+font-size: 16px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.preebook{
+  display: inline-flex;
+  padding: 10px 24px;
+  align-items: flex-start;
+  gap: 8px;
+  border-radius: 41px;
+  background: #E02C6D;
+}
+
+span{
+  color: #FFF;
+  font-size: 16px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.image{
+  margin-left:39px;
+}
+.image img {
+  border-radius: 50%;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  background: url(<path-to-image>), rgb(239, 236, 236) -256.697px -123px / 220.317% 154.831% no-repeat;
+}
+
+
+/* !-- Ecomerce  section start --> */
+.commerce .media {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+
+
+
+
+
+
+
+/* ----Popular Collection style */
+
+.section_tittle{
+  color: #3A3A3A;
+font-size: 28px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+line-height: 70px;
+text-align: center;
+}
+.courses{
+  display: flex;
+  gap: 20px;
+}
+.course{
+ background: #F3F1FF;
+ padding: 9px;
+ border-radius: 28px;
+}
+
+.course .course_banner img{
+  width: 266px;
+height: 141px;
+
+}
+.course_tittle{
+  color: #1E1E1E;
+ font-size: 20.034px;
+ font-family: Roboto;
+ font-weight: 500;
+}
+.course_author{
+  color: #ED6B4F;
+font-size: 14.691px;
+font-family: Roboto;
+}
+.fa-star.filled{
+  color: #FFC014;
+}
+.fa-star.empty{
+  color: #AEAEAE;
+}
+.course_info{
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+.course_duration{
+  background-color: #DBC7C2;
+  border-radius: 23px ;
+  padding: 6px;
+  margin-left: 30px;
+}
+.hour_rate{
+ color: #A2A2A2;
+  font-size: 14.691px;
+  margin-left: 9px;
+}
+.fa-clock.clock{
+  width: 20.034px;
+height: 20.034px;
+color: #FF4A60;
+
+}
+
