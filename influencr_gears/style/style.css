@@ -58,8 +58,8 @@ h2{
   font-weight: 700;
   line-height: 70px;
 }
-p{
-  color: #3A3A3A;
+.para{
+color: #3A3A3A;
 font-size: 16px;
 font-family: Poppins;
 font-style: normal;
@@ -113,7 +113,7 @@ span{
 /* ----Popular Collection style */
 
 .section_tittle{
-  color: #3A3A3A;
+color: #3A3A3A;
 font-size: 28px;
 font-family: Poppins;
 font-style: normal;
@@ -122,57 +122,82 @@ line-height: 70px;
 text-align: center;
 }
 .courses{
-  display: flex;
-  gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-row-gap: 30px;
+  grid-column-gap: 30px;
 }
-.course{
- background: #F3F1FF;
- padding: 9px;
- border-radius: 28px;
+
+
+.course {
+  border-radius: 5px;
+  background: #FFF;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15); 
+  box-sizing: border-box;
+  
 }
+
+
 
 .course .course_banner img{
-  width: 266px;
-height: 141px;
+  width: 410px;
+ height: 380px;
+ border-radius: 5px;
+ padding: 15px  15px 15px;
+ /* margin:15px; */
+ /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
 
 }
+
 .course_tittle{
-  color: #1E1E1E;
- font-size: 20.034px;
- font-family: Roboto;
- font-weight: 500;
+  color: var(--text-gray-900, #18191F);
+  font-size: 28px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  margin-left: 12px;
 }
 .course_author{
   color: #ED6B4F;
-font-size: 14.691px;
-font-family: Roboto;
-}
-.fa-star.filled{
-  color: #FFC014;
-}
-.fa-star.empty{
-  color: #AEAEAE;
+  font-size: 14.691px;
+  font-family: Poppins;
+  margin-left: 12px;
 }
 .course_info{
   display: flex;
-  align-items: center;
-  /* justify-content: space-between; */
+  gap:1px
 }
-.course_duration{
-  background-color: #DBC7C2;
-  border-radius: 23px ;
-  padding: 6px;
-  margin-left: 30px;
+.course_info i.fa-star {
+  margin-right: 0.4px; 
 }
-.hour_rate{
- color: #A2A2A2;
-  font-size: 14.691px;
-  margin-left: 9px;
-}
-.fa-clock.clock{
-  width: 20.034px;
-height: 20.034px;
-color: #FF4A60;
+.fa-star.filled{
+  color: #FFC014;
+  width: 11.068px;
+ height: 10.316px;
 
+}
+.fa-star.empty{
+  color: #AEAEAE;
+
+}
+
+.hour_rate{
+  color: #5E6366;
+  font-size: 14px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.1px;
+}
+ p{
+  color: var(--gray-50, #787885);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 143%;
+  letter-spacing: 0.252px;
+  margin-left: 12px;
 }
 
